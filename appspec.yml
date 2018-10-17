@@ -2,13 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination:
-hooks:
-  BeforeInstall:
-    - location:
-      timeou:
-      runas: root
-  ApplicationStop:
-    - location:
-      timeout:
-      runas:
+    destination: /home/ec2-user/
